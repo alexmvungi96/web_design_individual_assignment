@@ -1,0 +1,32 @@
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+    grid-template-areas:
+                         "head head"
+                         "colmun_one_left column_one_right"
+                         "colmun_two_left colmun_two_right"
+                         "colmun_three_left colmun_three_right"
+                         "colmun_four_left colmun_four_right"
+                         "colmun_five_left colmun_five_right"
+                         "colmun_six_left colmun_six_right"
+                         "colmun_seven_left colmun_seven_right";
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1rem 1rem;
+}
+
+.img_container {
+    width: 15rem;
+    height: 10rem;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
+
+.gallarey_header {
+    grid-area: head;
+    font-weight: bolder;
+}
